@@ -1,6 +1,6 @@
 # Skrypt do wstępnej analizy pakietów PCAP / PCAPNG
 
-pcapanalize.py to automatyczne narzędzie do analizy plików .pcap oraz .pcapng, stworzone z myślą o wstępnej analizie ruchu sieciowego. Skrypt identyfikuje podejrzane porty oraz wykrywa sygnatury typowych ataków w warstwie aplikacji.
+analizepcap.py to automatyczne narzędzie do analizy plików .pcap oraz .pcapng, stworzone z myślą o wstępnej analizie ruchu sieciowego. Skrypt identyfikuje podejrzane porty oraz wykrywa sygnatury typowych ataków w warstwie aplikacji.
 
 ## Funkcjonalności
 1. Wczytywanie plików .pcap / .pcapng
@@ -23,12 +23,12 @@ pcapanalize.py to automatyczne narzędzie do analizy plików .pcap oraz .pcapng,
 ## Użycie
 
 ```bash
-python3 spy.py -f ścieżka/do/pliku.pcap [-o nazwa_raportu.txt]
+python3 analizepcap.py -f ścieżka/do/pliku.pcap [-o nazwa_raportu.txt]
 ```
 
 Przykład użycia i raportu:
 ```bash
-python3 spy.py -f capture.pcapng -o raport.txt
+python3 analizepcap.py -f capture.pcapng -o raport.txt
 ```
 
 Przykładowy raport
